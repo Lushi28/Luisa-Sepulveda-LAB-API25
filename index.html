@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="pokedex">
+        <h1 class="titulo">Pokédex</h1>
+        <p class="descripcion">
+            Busca a tus Poké FAV
+        </p>
+
+        <section class="barra-busqueda">
+            <input type="text" id="inputPokemon" placeholder="Nombre del Pokémon">
+
+            <button type="button" id="btnBuscar">Buscar</button>
+            <button type="button" id="btnLimpiar">Limpiar</button>
+        </section>
+
+        <section class="seccion-resultados">
+            <h2>Resultado de búsqueda</h2>
+            <div id="resultadoBusqueda"></div>
+        </section>
+
+        <section class="seccion-favoritos">
+            <h2>Mis colección de favoritos</h2>
+            <div id="listaFavoritos"></div>
+        </section>
+
+    </main>
+
+    <script type="module" src="./js/main.js"></script>
+
+</body>
+
+</html>
